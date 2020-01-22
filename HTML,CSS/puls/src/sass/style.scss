@@ -1,0 +1,27 @@
+@import 'base/variables';
+@import 'block/promo';
+@import 'block/header';
+@import 'block/button';
+@import 'block/section-title';
+@import 'block/advant';
+@import 'block/consultation';
+@import 'block/forms';
+@import 'block/carousel';
+@import 'block/catalog';
+@import 'block/recall';
+@import 'block/footer';
+
+.container {
+  position: relative;
+  max-width: 970px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+* {
+  font-family: 'Museo Sans', sans-serif;
+}

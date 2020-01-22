@@ -1,0 +1,27 @@
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+  background: url('../../img/form-bg.jpg') center (center/cover) no-repeat;
+  &__descr {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 575px) {
+  .consultation {
+    &__descr {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .consultation {
+    &__descr {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
