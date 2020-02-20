@@ -7,6 +7,16 @@
     font-size: 20px;
     font-weight: 500;
   }
+  .error {
+    border: 1px solid #ff0000;
+    &:focus {
+      outline: none;
+    }
+  }
+  label.error {
+    color: #fff;
+    border: none;
+  }
 }
 
 @media (max-width: 575px) {
