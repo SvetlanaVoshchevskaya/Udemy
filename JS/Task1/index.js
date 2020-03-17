@@ -69,14 +69,16 @@ const appDate = {
     appDate.income = incomeItem.split(', ');
     appDate.income.push(prompt(' Что то еще?', ''));
     appDate.income.sort();
-    appDate.income.forEach((el, i, arr) =>
-      alert('Способы доп. заработка: ' + arr)
+    appDate.income.forEach((el, i) =>
+      alert('Способы доп. заработка: ' + (i+1) + ' ' + el)
     );
-    for (let el in appDate) {
-      console.log('Наша программа включает в себя данные: ' + el);
-    }
+   
   }
 };
+
+for (let el in appDate) {
+  console.log('Наша программа включает в себя данные: ' + el + appDate[el]);
+}
 
 appDate.askAnswer();
 appDate.chooseExpenses();
